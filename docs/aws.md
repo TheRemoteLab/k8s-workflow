@@ -12,7 +12,7 @@
   (I had choosen t2.micro image for my reference) 
 3. After creating your instance, use
 ```sh
-ssh -i "secret.pem" ubuntu@45.67.23.14 
+ssh -i "secret.pem" <username>@<ip-address> 
 ```
 to login into your instance. 
 
@@ -63,3 +63,6 @@ export nodes="root@127.0.0.1"
 export roles="ai"
 export NUM_MINIONS=${NUM_MINIONS:-1}
 ```
+# References:
+
+* [Getting Started on Kubernetes](http://containertutorials.com/get_started_kubernetes/index.html)
