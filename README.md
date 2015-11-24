@@ -11,20 +11,20 @@ Platforms supported:
 
 Find out more DevOps related articles [here][12].
 
-## Steps Innvolved:
+# Steps Innvolved:
 
-# Category A: Building Docker Components
+### Category A: Building Docker Components
 
  To automate the process of building the Docker Components using Chef Server and Client.
  To use very simple cookbooks to build up simple setups like apache or nginx.
 
-# Category B: Container Management :
+### Category B: Container Management :
 
 - Installing and configuring [kubernetes][13]
 - Improving security for the docker containers
 - Installing and configuring a regular monitoring tool like [sysdig][14] or [Prometheus][15]
 
-# Category C: Building Paas on top using [Deis][16]
+### Category C: Building Paas on top using [Deis][16]
 
 ## Wish to Contribute:
 
