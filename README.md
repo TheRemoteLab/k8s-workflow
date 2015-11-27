@@ -11,6 +11,21 @@ Platforms supported:
 
 Find out more DevOps related articles [here][12].
 
+# Steps Innvolved:
+
+### Category A: Building Docker Components
+
+ To automate the process of building the Docker Components using Chef Server and Client.
+ To use very simple cookbooks to build up simple setups like apache or nginx.
+
+### Category B: Container Management :
+
+- Installing and configuring [kubernetes][13]
+- Improving security for the docker containers
+- Installing and configuring a regular monitoring tool like [sysdig][14] or [Prometheus][15]
+
+### Category C: Building Paas on top using [Deis][16]
+
 ## Wish to Contribute:
 
 Fork it out. Follow [these][10] guidelines.
@@ -36,3 +51,7 @@ The work done has been licensed under Apache License 2.0.The license file can be
   [10]: https://guides.github.com/activities/contributing-to-open-source
   [11]: https://github.com/TheRemoteLab/kubes-workflow/blob/master/LICENSE
   [12]: http://theremotelab.io/blog
+  [13]:https://kubernetes.io
+  [14]:https://sysdig.com/
+  [15]:http://prometheus.io/
+  [16]:http://deis.io/
