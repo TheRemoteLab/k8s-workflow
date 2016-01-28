@@ -1,6 +1,6 @@
-# kubes-workflow
+# k8s-workflow
 
-`kubes-workflow` is a platform agnostic persistent lab setup by [The Remote Lab][1], that helps you play with [kubernetes][6], and also focusses on security and static analysis of the container images.
+`k8s-workflow` is a platform agnostic persistent lab setup by [The Remote Lab][1], that helps you play with [kubernetes][6], and also focusses on security and static analysis of the container images.
 
 Platforms supported:
 
@@ -49,7 +49,7 @@ The work done has been licensed under Apache License 2.0.The license file can be
   [8]: https://aws.amazon.com
   [9]: https://azure.microsoft.com
   [10]: https://guides.github.com/activities/contributing-to-open-source
-  [11]: https://github.com/TheRemoteLab/kubes-workflow/blob/master/LICENSE
+  [11]: https://github.com/TheRemoteLab/k8s-workflow/blob/master/LICENSE
   [12]: http://theremotelab.io/blog
   [13]:https://kubernetes.io
   [14]:https://sysdig.com/
