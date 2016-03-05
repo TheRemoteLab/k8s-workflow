@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>k8s-workflow</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll">
+
+    <!---//Facebook button code-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- ******HEADER****** -->
+    <header id="header" class="header">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">k8s-workflow</span>
+                </a>
+            </h1><!--//logo-->
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#docs">Start here</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#license">License</a></li>
+                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <h2 class="title"><img src="k8s.png" alt=""/>k8s-workflow</h2>
+            <p class="intro">An awesome place to start learning kubernetes</p>
+            <div class="btns">
+                <a class="btn btn-cta-secondary" href="https://theremotelab.io" target="_blank"> Visit Us </a>
+                <a class="btn btn-cta-primary" href="https://github.com/TheRemoteLab/k8s-workflow/archive/master.zip" target="_blank">Download</a>
+            </div>
+            <ul class="meta list-inline">
+                <li><a href="https://github.com/theremotelab/k8s-workflow" target="_blank">View on GitHub</a></li>
+                <li><a href="https://github.com/TheRemoteLab/k8s-workflow/archive/master.zip" target="_blank">Download</a></li>
+                <li>Created by: <a href="http://theremotelab.io/" target="_blank">The Remote Lab</li>
+            </ul><!--//meta-->
+        </div><!--//container-->
+        <div class="social-media">
+            <div class="social-media-inner container text-center">
+                <ul class="list-inline">
+                    <li class="twitter-follow"><a href="https://twitter.com/theremotelab" class="twitter-follow-button" data-show-count="false">Follow @theremotelab</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li><!--//twitter-follow-->
+                    <li class="twitter-tweet">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="3rdwave_themes" data-hashtags="bootstrap">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li><!--//twitter-tweet-->
+                    <li class="facebook-like">
+                         <div class="fb-like" data-href="https://facebook.com/theremotelab" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                    </li><!--//facebook-like-->
+                    <!--// Generate github buttons: https://github.com/mdo/github-buttons -->
+                    <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=theremotelab&repo=k8s-workflow&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
+                    <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=theremotelab&repo=k8s-workflow&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
+                    <!--//
+                    <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&type=follow&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </section><!--//promo-->
+
+    <!-- ******ABOUT****** -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="title text-center">What is k8s-workflow?</h2>
+            <p class="intro text-center"> It is a cool workflow around the orchestration engine kubernetes by Google to manage easy workflow around the linux containers. </p>
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Built with Love</h3>
+                        <p> The project is built with great love and true dedication towards the community.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Time saver</h3>
+                        <p>Searching example of how the kubernetes works.This is a nice place to start at.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-ship"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Docker Enhanced</h3>
+                        <p>The whole workflow is Docker based and enhanced.The objective is to provide a continous delivery enviorment for the docker containers.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="clearfix visible-md"></div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Community Supported</h3>
+                        <p>k8s-workflow is completely dedicated towards serving the community.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Easy to customise</h3>
+                        <p>The Code is easy to customize in raw data.Made to be kept fun for anyone to play around.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-github"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Open Source</h3>
+                        <p> The project is hackable and open source for anyone who wishes to learn kubernetes.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//about-->
+
+    <!-- ******FEATURES****** -->
+    <section id="features" class="features section">
+        <div class="container text-center">
+            <h2 class="title">Features</h2>
+            <ul class="feature-list list-unstyled">
+                <li><i class="fa fa-star"></i> Built by professionals</li>
+                <li><i class="fa fa-star"></i> Amazing new stuff included</li>
+                <li><i class="fa fa-star"></i> New tryout enviorments</li>
+                <li><i class="fa fa-star"></i> Cool Hacks included</li>
+            </ul>
+        </div><!--//container-->
+    </section><!--//features-->
+
+    <!-- ******DOCS****** -->
+    <section id="docs" class="docs section">
+        <div class="container">
+            <div class="docs-inner">
+            <h2 class="title text-center">Get Started</h2>
+            <div class="block">
+                <h3 class="sub-title text-center">Installation</h3>
+                <p></p>
+                <p></p>
+                <!--<ul class="list-unstyled">
+                    <li><strong>Compression level:</strong> Minified</li>
+                    <li><strong>Theme:</strong> Okaidia</li>
+                    <li><strong>Languages:</strong> Markup, CSS, C-like, JavaScript, PHP and Python</li>
+                </ul>-->
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+## Installation:
+
+* Install the kubernetesv1.0 compressed file:
+wget https://github.com/GoogleCloudPlatform/kubernetes/releases/download/v1.0.1/kubernetes.tar.gz
+* Untar the kubernetes package:
+tar -xvf kubernetes.tar.gz
+* Download the latest binaries on kubernetes path:
+cd kubernetes/cluster/ubuntu
+./build.sh
+
+                     </code></pre>
+                </div><!--//code-block-->
+            </div><!--//block-->
+
+            <div class="block">
+                <h3 class="sub-title text-center">Using kubectl</h3>
+                <p>.</p>
+
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre>
+    <code class="language-markup">
+## kubectl:
+
+* To install: export PATH=$PATH:~/kubernetes/cluster/ubuntu/binaries
+* kubectl --help
+* kubectl get nodes
+* kubectl create -f addons/kube-ui/kube-ui-rc.yaml --namespace=kube-system
+
+    </code></pre>
+                </div><!--//code-block-->
+            </div><!--//block-->
+
+            <div class="block">
+                <h3 class="sub-title text-center">Interested ?</h3>
+                <p>Download the latest update and start hacking.</p>
+                <p class="text-center">
+                    <a class="btn btn-cta-primary" href="https://github.com/TheRemoteLab/k8s-workflow/archive/master.zip" target="_blank">Download</a>
+                </p>
+            </div><!--//block-->
+
+            </div><!--//docs-inner-->
+        </div><!--//container-->
+    </section><!--//features-->
+
+    <!-- ******LICENSE****** -->
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+            <h2 class="title text-center">License</h2>
+                <div class="info">
+                    <p>This repository is made by <a href="https://www.linkedin.com/in/theremotelab" target="_blank">The Remote Lab</a> and is <strong>100% OPEN SOURCE</strong> & license under the <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Apache 2.0 License</a></p>
+                </div><!--//info-->
+                <div class="cta-container">
+                    <div class="speech-bubble">
+                        <p class="intro">If you wish to contribute to the project,feel free to fork it out  :)</p>
+                        <div class="icon-holder  text-center"><i class="fa fa-smile-o"></i></div>
+                    </div><!--//speech-bubble-->
+                </div><!--//cta-container-->
+            </div><!--//license-inner-->
+        </div><!--//container-->
+    </section><!--//how-->
+
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+                <p class="intro  text-center"></p>
+                <div class="author-message">
+                    <div class="profile">
+                        <img class="img-responsive" src="assets/images/profile.jpg" alt="" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h3 class="sub-title">Wish to Connect with us ?</h3>
+                        <p><strong>Email:</strong>
+                          hello@theremotelab.com
+                          <br></br>
+                        <strong>Phone:</strong>
+                          +44 (0)2089823596
+                        </p>
+                        <p>
+                          <strong>Address</strong>
+                          <br></br>
+                          UK Office
+                          5th floor Hyde Park Hayes 3,
+                          11 Millington Road,
+                          Hayes, Middlesex, UB3 4AZ
+                          United Kingdom
+
+                        </p>
+                        <div class="source">
+                            <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">The Remote Lab Team</a></span>
+                            <br />
+                            <span class="title"></span>
+                        </div><!--//source-->
+                    </div><!--//speech-bubble-->
+                </div><!--//author-message-->
+                <div class="clearfix"></div>
+                <div class="info text-center">
+                    <h3 class="sub-title">Stay in Touch </h3>
+                    <ul class="social-icons list-inline">
+                        <li><a href="https://twitter.com/theremotelab" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/theremotelab" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/theremotelab" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://github.com/theremotelab" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="http://github.com/theremotelab" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://letsdevops.slack.com" target="_blank"><i class="fa fa-slack"></i></a></li>
+                        <li class="last"><a href="mailto:hello@theremotelab.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div><!--//info-->
+            </div><!--//contact-inner-->
+        </div><!--//container-->
+    </section><!--//contact-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
